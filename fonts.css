@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&family=Source+Sans+Pro:wght@200&display=swap');
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+}
+h1{
+    font-family: 'Smooch Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(64, 110, 70);
+}
+
+body{
+    background-color: rgba(210, 218, 209, 0.699);
+    font-size: 12px;
+}
+
+.contents{
+    box-sizing: border-box;
+    background-color: rgb(64, 110, 70);;
+    text-size-adjust: 20px;
+    font-size: 15px;
+    
+}
+.contents li a:hover {
+    color:rgb(56, 56, 34);
+}
