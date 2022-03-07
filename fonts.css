@@ -8,7 +8,7 @@ p{
 }
 h1{
     font-family: 'Smooch Sans', sans-serif;
-    text-size-adjust: 25px;
+    text-size-adjust: 29px;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
     background-color: #90A785
@@ -19,14 +19,21 @@ span{
 }
 h2{
     font-family: 'Smooch Sans', sans-serif;
-    text-size-adjust: 25px;
+    text-size-adjust: 29px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: #C8DAB1;
+}
+h3{
+    font-family: 'Smooch Sans', sans-serif;
+    text-size-adjust: 29px;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
     background-color: #C8DAB1;
 }
 body{
     background-color: #F7F4F2;
-    font-size: 14px;
+    font-size: 19px;
 }
 .slider{
     
@@ -35,8 +42,8 @@ body{
 .contents{
     box-sizing: border-box;
     background-color: #C8DAB1 ;
-    text-size-adjust: 20px;
-    font-size: 15px;
+    text-size-adjust: 24px;
+    font-size: 19px;
     
 }
 .contents li a:hover {
