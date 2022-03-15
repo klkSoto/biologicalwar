@@ -4,12 +4,11 @@
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: large;
-    text-align: center;
 }
-h1{
+h1,h2,h3{
     font-family: 'Smooch Sans', sans-serif;
     text-size-adjust: 29px;
-    color: rgb(0, 0, 0);
+    color: honeydew;
     box-sizing: border-box;
     background-color: #90A785
     ;
@@ -17,35 +16,26 @@ h1{
 span{
     float:left;
 }
-h2{
-    font-family: 'Smooch Sans', sans-serif;
-    text-size-adjust: 29px;
-    color: rgb(0, 0, 0);
-    box-sizing: border-box;
-    background-color: #C8DAB1;
-}
-h3{
-    font-family: 'Smooch Sans', sans-serif;
-    text-size-adjust: 29px;
-    color: rgb(0, 0, 0);
-    box-sizing: border-box;
-    background-color: #C8DAB1;
-}
 body{
-    background-color: #F7F4F2;
+    background-color:dimgray;
+    color:honeydew;
     font-size: 19px;
 }
-.slider{
-    
-}
-
 .contents{
-    box-sizing: border-box;
-    background-color: #C8DAB1 ;
-    text-size-adjust: 24px;
-    font-size: 19px;
     
 }
-.contents li a:hover {
-    color:rgb(56, 56, 34);
+ul{
+    width: auto;
+    float: right;
+    margin-top: 30px; 
+}
+li{
+   display: inline-block;
+   padding: 15px 30px; 
+}
+a{
+    text-align: center;
+}
+a:hover{
+    transition: o.3s;
 }
