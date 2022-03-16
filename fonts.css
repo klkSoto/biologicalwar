@@ -68,3 +68,6 @@ input[type=submit]{
     color: honeydew;
     border-radius: 50%;
 }
+input[type=text]:focus {
+    width: 40%;
+}
