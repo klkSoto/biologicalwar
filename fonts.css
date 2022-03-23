@@ -4,24 +4,6 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: large;
 }
-.sidebar{
-    width: 20%;
-    display: flex;
-    background-color: transparent;
-}
-.sidebar a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    letter-spacing: 2px;
-    display: list-item;
-    padding: 20px;
-    border-top: 1px solid black;
-}
-.sidebar a:hover{
-    text-transform: uppercase;
-    cursor:pointer;
-}
 h1{
     text-align: center;
     font-family: 'Smooch Sans', sans-serif;
@@ -40,7 +22,9 @@ h2,h3,h4{
 }
 .contents{
     font-size: 25px;
+    padding: 20px;
     background-color: #5E716A;
+    margin-bottom: 25px;
 }
 .contents a{
     text-decoration: #2F3935;
@@ -86,8 +70,7 @@ body{
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
-    margin: 25px;
-    margin-bottom: 20px;
+    margin: 76px;
 }
 input[type=submit]{
     background-color:#5E716A ;
