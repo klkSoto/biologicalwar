@@ -20,11 +20,52 @@ h2,h3,h4{
     font-weight: bold;
     color: honeydew;
 }
+.design{
+   border-width: 25px 0 0 25px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+
+}
+.contentsH{
+    font-size: 25px;
+    padding: 20px;
+    background-color: #5E716A;
+    margin-bottom:-160px;
+    margin-left: 400px;
+}
+.contentsH a{
+    text-decoration: #2F3935;
+}
+.contentsH a:visited{
+    text-decoration: none;
+    color: #424F4A;
+}
+.contentsH a:hover{
+    border: 4px solid #715E65;
+    border-top: 50px;
+    border-left: 50px;
+    border-right: 50px;
+    color: honeydew;
+    cursor: grab;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+.main{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-top: -272px;
+}
 .contents{
     font-size: 25px;
     padding: 20px;
     background-color: #5E716A;
     margin-bottom: 25px;
+    text-align: center;
 }
 .contents a{
     text-decoration: #2F3935;
@@ -32,7 +73,7 @@ h2,h3,h4{
 }
 .contents a:visited{
     text-decoration: none;
-    color: #2F3935;
+    color: #424F4A;
 }
 .contents a:hover{
     border: 4px solid #715E65;
@@ -42,7 +83,28 @@ h2,h3,h4{
     color: honeydew;
     cursor: grab;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 0.7s;
+}
+.sidebar{
+    height: 50%;
+    width: 360px;
+    position: sticky;
+    z-index: 1;
+    top: 115px;
+    left: 0;
+    background-color: #4B5A55;
+    overflow-x: hidden;
+    padding: 20px;
+}
+.sidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: honeydew;
+    display: block;
+    
+}
+.img1{
+    width: 25%;
 }
 img{
     cursor:grab;
@@ -69,14 +131,19 @@ body{
     color:honeydew;
     font-size: 18px;
     margin-left: auto;
+    border-top: 50px;
     margin-right: auto;
     margin: 76px;
 }
 input[type=submit]{
-    background-color:#5E716A ;
-    color: honeydew;
+    background-color:#ffffff ;
+    color: black;
     border-radius: 50%;
 }
 input[type=text]:focus {
     width: 40%;
+}
+.procedures{
+    box-sizing: border-box;
+    background-color: #4B5A55;
 }
